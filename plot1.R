@@ -1,3 +1,4 @@
+
 data <- read.table("household_power_consumption.txt",sep=";",header=FALSE,skip=66637,nrows=2880)
 
 names(data) <- c("Date","Time","Global_active_power","Global_reactive_power",
